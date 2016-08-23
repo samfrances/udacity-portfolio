@@ -5,6 +5,11 @@
 	-ms-box-sizing: border-box;
 }
 
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
 .screenshot {
 	max-width: 460px;
 }
@@ -12,5 +17,3 @@
 .description {
 	max-width: 705px;
 }
-
-705
