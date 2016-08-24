@@ -1,2 +1,6 @@
 /* CSS reset */
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css";
+
+.site-title {
+	text-align: right;
+}
