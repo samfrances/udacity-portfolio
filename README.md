@@ -6,3 +6,6 @@ A responsive portfolio website, part of the Udacity Front-End Web Developer Nano
 
 ## Images
 - All images purchased from [istockphoto.com](http://www.istockphoto.com), and used in accordance with their [standard license](http://www.istockphoto.com/gb/legal/license-agreement).
+- Exceptions:
+    + Kalah board image, from wikipedia:
+        - https://upload.wikimedia.org/wikipedia/commons/3/30/Bao_europe.jpg
