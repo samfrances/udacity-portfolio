@@ -219,7 +219,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>*[Optional] Mark todos and action items with <code>TODO</code></li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
     </tbody>
 </table>
