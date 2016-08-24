@@ -13,8 +13,16 @@ body {
 	text-transform: uppercase;
 }
 
-.banner-image {
+.responsive-image {
 	width: 100%;
+}
+
+.logo {
+	width: 150px;
+}
+
+.project-pane {
+	padding: 10px;
 }
 
 
