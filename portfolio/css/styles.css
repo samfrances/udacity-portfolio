@@ -17,7 +17,10 @@ body {
 
 /* Catch-all to prevent images etc. overflowing containers */
 
-img, object, embed, video {
+img,
+object,
+embed,
+video {
     max-width: 100%;
 }
 
@@ -54,7 +57,7 @@ img, object, embed, video {
 
 a:link, a:visited, a:active {
     text-decoration: none;
-    color: #000000;
+    color: #000;
 }
 
 a:hover {
