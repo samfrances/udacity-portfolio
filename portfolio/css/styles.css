@@ -13,6 +13,10 @@ body {
 	text-transform: uppercase;
 }
 
+.banner-image {
+	width: 100%;
+}
+
 
 /* Break point, reflowing layout for mobile */
 @media only screen and (max-width: 500px) {
