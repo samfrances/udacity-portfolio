@@ -14,7 +14,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
         <tr>
             <th>Criteria</th>
             <th>Meets Specification</th>
-            <th>Done?</th>
         </tr>
     </thead>
     <tbody>
@@ -29,7 +28,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>a logo.</li>
                 </ul>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>Semantic HTML</td>
@@ -40,7 +38,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
                 <p>Check out the W3C documentation on <a href="https://www.w3.org/wiki/HTML_structural_elements">HTML Structural Elements</a> to learn more!</p>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>Custom Design</td>
@@ -52,7 +49,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>Customize <code>CSS</code> styles applied at minimum to paragraph and heading elements.</li>
                 </ul>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>Grid-Based Layout</td>
@@ -60,7 +56,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                 <p>Page utilizes a grid-based layout with styles making use of the <code>flexbox</code> layout or a framework like <code>Bootstrap</code>, <code>Foundation</code>, etc.</p>
                 <p>If you're using <code>Bootstrap</code> or standard <code>HMTL/CSS</code>: the rows and columns of the grid must be wrapped in an element with a <code>container</code> class.</p>
             </td>
-            <td>DONE</td>
         </tr>
     </tbody>
 </table>
@@ -72,7 +67,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
         <tr>
             <th>Criteria</th>
             <th>Meets Specification</th>
-            <th>Done?</th>
         </tr>
     </thead>
     <tbody>
@@ -89,22 +83,18 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
                 <p>TIP: Test responsiveness with Chrome Developer Tools device emulation by right-clicking anywhere on page, selecting ‘Inspect Element’, clicking the rectangle to the left of the Elements tab, select Apple iPad or Google Nexus 5 from Device drop-down list, and click reload.</p>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>Provide All Content</td>
             <td>All content is rendered on all three devices. No content should be hidden on mobile devices. </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>Viewport meta Tag</td>
             <td>Viewport <code>meta</code> tag is included in <code>HTML</code>. (i.e. <code>&lt;meta name=”viewport” …</code>)</td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>Responsive Images</td>
             <td>If a CSS framework is used, classes provided by the CSS framework are used to make images responsive, otherwise media-queries are used to ensure responsiveness of images.</td>
-            <td>DONE</td>
         </tr>
     </tbody>
 </table>
@@ -116,7 +106,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
         <tr>
             <th>Criteria</th>
             <th>Meets Specification</th>
-            <th>Done?</th>
         </tr>
     </thead>
     <tbody>
@@ -127,7 +116,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
                 <p>Note: It is acceptable to include <code>height</code> and <code>width</code> attributes in <code>&lt;img&gt;</code> elements.</p>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>File structure</td>
@@ -137,7 +125,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                 <code>img/</code> for images<br>
                 <code>js/</code> for JavaScript files</p>
             </td>
-            <td>DONE</td>
         </tr>
     </tbody>
 </table>
@@ -149,7 +136,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
         <tr>
             <th>Criteria</th>
             <th>Meets Specification</th>
-            <th>Done?</th>
         </tr>
     </thead>
     <tbody>
@@ -164,7 +150,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] When quoting attribute values, code uses double quotation marks.</li>
                 </ul>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>HTML Style Rules</td>
@@ -176,7 +161,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] Code omits type attributes for style sheets and scripts.</li>
                 </ul>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>CSS Formatting Rules</td>
@@ -193,7 +177,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] Code uses double quotation marks for attribute selectors or property values. Do not use quotation marks in <code>URI</code> values (<code>url()</code>).</li>
                 </ul>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>CSS Style Rules</td>
@@ -209,7 +192,6 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] Code avoids user agent detection as well as <code>CSS</code> "hacks" — try a different approach first.</li>
                 </ul>
             </td>
-            <td>DONE</td>
         </tr>
         <tr>
             <td>General Meta Rules</td>
@@ -219,7 +201,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>*[Optional] Mark todos and action items with <code>TODO</code></li>
                 </ul>
             </td>
-            <td>DONE</td>
+
         </tr>
     </tbody>
 </table>
