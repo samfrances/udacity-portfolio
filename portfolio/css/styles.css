@@ -6,9 +6,9 @@
 
 /* Borders for design purposes, remove for production */
 
-* {
+/** {
     border: 1px solid red !important;
-}
+}*/
 
 body {
 	font-family: 'Lato', sans-serif;
@@ -57,7 +57,11 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* Styling of project panes */
+/* Styling of specific parts of page */
+
+.banner-main {
+	padding: 0px 10px 0px 10px;
+}
 
 .project-pane {
 	padding: 10px;
@@ -71,16 +75,34 @@ a:hover {
 }
 
 .logo {
-	width: 120px;
+	width:100px;
+	margin:10px;
 }
 
 
 /* Break point, reflowing layout for mobile */
 @media only screen and (max-width: 500px) {
+
     #project-panes-row {
     	flex-direction: column;
     }
+    
     #project-panes-row article.project-pane {
     	width: 100%;
     }
+    
+    h1.site-title {
+		font-size: 2em;
+	}
+
+	h2.site-title {
+		font-size: 1.5em;
+	}
+}
+
+/* Utility mixins */
+.flex-center-vertically { /* From https://css-tricks.com/centering-css-complete-guide/#vertical-flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
