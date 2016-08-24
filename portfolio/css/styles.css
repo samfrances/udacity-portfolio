@@ -111,3 +111,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
 }
+
+.soft-corners {
+    border-radius: 10px;
+}
