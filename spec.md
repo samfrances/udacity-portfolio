@@ -104,7 +104,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
         <tr>
             <td>Responsive Images</td>
             <td>If a CSS framework is used, classes provided by the CSS framework are used to make images responsive, otherwise media-queries are used to ensure responsiveness of images.</td>
-            <td></td>
+            <td>DONE</td>
         </tr>
     </tbody>
 </table>
@@ -164,7 +164,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] When quoting attribute values, code uses double quotation marks.</li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>HTML Style Rules</td>
@@ -176,7 +176,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] Code omits type attributes for style sheets and scripts.</li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>CSS Formatting Rules</td>
@@ -193,7 +193,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] Code uses double quotation marks for attribute selectors or property values. Do not use quotation marks in <code>URI</code> values (<code>url()</code>).</li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>CSS Style Rules</td>

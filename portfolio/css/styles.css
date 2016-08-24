@@ -2,7 +2,7 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css";
 
 /* Import fonts */
-@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700';
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700";
 
 /* Borders for design purposes, remove for production */
 
@@ -12,75 +12,75 @@
 */
 
 body {
-	font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 /* Catch-all to prevent images etc. overflowing containers */
 
 img, object, embed, video {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 /* Header text styles */
 
 .site-title {
-	text-align: right;
-	text-transform: uppercase;
-	margin: 5px;
-	font-weight: 300;
-	font-size: 5em;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 5px;
+    font-weight: 300;
+    font-size: 5em;
 }
 
 .site-title.subheading {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 /* Heading styles */
 
 #main h2 {
-	font-size: 2.2em;
-	color: #7d97ad;
-	font-weight: 400;
-	margin: 20px 0px 0px 20px;
+    font-size: 2.2em;
+    color: #7d97ad;
+    font-weight: 400;
+    margin: 20px 0px 0px 20px;
 }
 
 #main h3 {
-	text-transform: uppercase;
-	font-size: 1.7em;
-	margin: 15px 0px 15px 0px;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    margin: 15px 0px 15px 0px;
 }
 
 /* Links */
 
 a:link, a:visited, a:active {
-	text-decoration: none;
-	color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Styling of specific parts of page */
 
 .banner-main {
-	padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 .project-pane {
-	padding: 10px;
-	text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Image styles */
 
 .responsive-image {
-	width: 100%;
+    width: 100%;
 }
 
 .logo {
-	width:100px;
-	margin:10px;
+    width: 100px;
+    margin: 10px;
 }
 
 
@@ -88,25 +88,26 @@ a:hover {
 @media only screen and (max-width: 500px) {
 
     #project-panes-row {
-    	flex-direction: column;
+        flex-direction: column;
     }
     
-    #project-panes-row article.project-pane {
-    	width: 100%;
+    #project-panes-row .project-pane {
+        width: 100%;
     }
     
     .site-title {
-		font-size: 2em;
-	}
+        font-size: 2em;
+    }
 
-	.site-title.subheading {
-		font-size: 1.5em;
-	}
+    .site-title.subheading {
+        font-size: 1.5em;
+    }
 }
 
 /* Utility mixins */
+
 .flex-center-vertically { /* From https://css-tricks.com/centering-css-complete-guide/#vertical-flexbox */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
