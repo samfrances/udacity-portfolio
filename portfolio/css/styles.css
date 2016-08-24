@@ -15,6 +15,12 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+/* Catch-all to prevent images etc. overflowing containers */
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
 /* Header text styles */
 
 .site-title {
