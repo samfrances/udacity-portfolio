@@ -29,7 +29,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>a logo.</li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>Semantic HTML</td>
@@ -40,7 +40,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
                 <p>Check out the W3C documentation on <a href="https://www.w3.org/wiki/HTML_structural_elements">HTML Structural Elements</a> to learn more!</p>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>Custom Design</td>
@@ -52,7 +52,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>Customize <code>CSS</code> styles applied at minimum to paragraph and heading elements.</li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>Grid-Based Layout</td>
@@ -60,7 +60,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                 <p>Page utilizes a grid-based layout with styles making use of the <code>flexbox</code> layout or a framework like <code>Bootstrap</code>, <code>Foundation</code>, etc.</p>
                 <p>If you're using <code>Bootstrap</code> or standard <code>HMTL/CSS</code>: the rows and columns of the grid must be wrapped in an element with a <code>container</code> class.</p>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
     </tbody>
 </table>
@@ -127,7 +127,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
                 <p>Note: It is acceptable to include <code>height</code> and <code>width</code> attributes in <code>&lt;img&gt;</code> elements.</p>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>File structure</td>
@@ -137,7 +137,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                 <code>img/</code> for images<br>
                 <code>js/</code> for JavaScript files</p>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
     </tbody>
 </table>
