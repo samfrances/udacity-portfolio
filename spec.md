@@ -209,7 +209,7 @@ Once you've successfully replicated the design mockup, you are encouraged to con
                     <li>[Optional] Code avoids user agent detection as well as <code>CSS</code> "hacks" — try a different approach first.</li>
                 </ul>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>General Meta Rules</td>
