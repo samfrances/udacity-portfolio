@@ -89,17 +89,17 @@ Once you've successfully replicated the design mockup, you are encouraged to con
 
                 <p>TIP: Test responsiveness with Chrome Developer Tools device emulation by right-clicking anywhere on page, selecting ‘Inspect Element’, clicking the rectangle to the left of the Elements tab, select Apple iPad or Google Nexus 5 from Device drop-down list, and click reload.</p>
             </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>Provide All Content</td>
             <td>All content is rendered on all three devices. No content should be hidden on mobile devices. </td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>Viewport meta Tag</td>
             <td>Viewport <code>meta</code> tag is included in <code>HTML</code>. (i.e. <code>&lt;meta name=”viewport” …</code>)</td>
-            <td></td>
+            <td>DONE</td>
         </tr>
         <tr>
             <td>Responsive Images</td>

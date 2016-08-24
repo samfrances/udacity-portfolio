@@ -6,9 +6,9 @@
 
 /* Borders for design purposes, remove for production */
 
-/** {
+* {
     border: 1px solid red !important;
-}*/
+}
 
 body {
 	font-family: 'Lato', sans-serif;
