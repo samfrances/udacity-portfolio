@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sam Frances - Full-Stack Web Enthusiast</title>
+  <link rel="stylesheet" href="css/grids.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="row">
+      <div class="col-4 flex-center-vertically">
+        <img src="img/logo-200w.jpg" class="logo" alt="Logo image">
+      </div>
+      <div class="col-8 flex-center-vertically">
+        <h1 class="site-title">Sam Frances</h1>
+        <h2 class="site-title subheading">Full-Stack Web Enthusiast</h2>
+      </div>
+    </header>
+
+    <section class="row banner-main">
+      <div class="col-12">
+        <img src="img/js_banner-1180w.jpg"
+             srcset="img/js_banner-1180w.jpg 1180w,
+                     img/js_banner-800w.jpg 800w,
+                     img/js_banner-600w.jpg 600w,
+                     img/js_banner-400w.jpg 400w,
+                     img/js_banner-300w.jpg 300w"
+             sizes="100vw"
+             alt="Banner image" class="responsive-image soft-corners">
+      </div>
+    </section>
+
+    <section id="main">
+      <header class="row">
+        <div class="col-12">
+          <h2>Featured Work</h2>
+        </div>
+      </header>
+      <div class="row" id="project-panes-row">
+
+        <article class="col-4 project-pane">
+          <img src="img/kalah-380w.jpg" alt="Kalah board" class="responsive-image soft-corners">
+          <h3>Kalah Game API</h3>
+          <p><a href="http://www.github.com/samfrances/udacity-kalah">github.com/samfrances/udacity-kalah</a></p>
+          <p>An API for Kalah, a turn-based two-player “count and capture” board game. Written in Python using Google App Engine, Cloud Endpoints and Datastore.</p>
+        </article>
+
+        <article class="col-4 project-pane">
+          <img src="img/catalog-380w.jpg" alt="Photo of filing cabinet" class="responsive-image soft-corners">
+          <h3>Catalog App</h3>
+          <p><a href="http://github.com/samfrances/udacity-item-catalog">github.com/samfrances/udacity-item-catalog</a></p>
+          <p>A content management system for cataloging and tagging items, developed using the Flask framework in Python. Authentication is provided via OAuth and all data is stored within a PostgreSQL database.</p>
+        </article>
+
+        <article class="col-4 project-pane">
+          <img src="img/todo-380w.jpg" alt="Image of todo list on tablet" class="responsive-image soft-corners">
+          <h3>MVC todo list demo</h3>
+          <p><a href="http://www.github.com/samfrances/todo-mvc-demo">github.com/samfrances/todo-mvc-demo</a></p>
+          <p>Simple Javascript todo list application, written as an exercise in creating an MVC Javascript application, without an MVC framework.</p>
+        </article>
+
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
